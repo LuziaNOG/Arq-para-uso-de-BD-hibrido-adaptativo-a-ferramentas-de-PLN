@@ -1,0 +1,1 @@
+from modulo_comunicacao.conexao import Conexao

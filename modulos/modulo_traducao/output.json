@@ -1,0 +1,17 @@
+{
+	"select": {
+		"column": "present",
+		"type": "['AVG']"
+	},
+	"from": {
+		"table": "SchoolRecords"
+	},
+	"join": {
+	},
+	"where": {
+	},
+	"group_by": {
+	},
+	"select": {
+	},
+}

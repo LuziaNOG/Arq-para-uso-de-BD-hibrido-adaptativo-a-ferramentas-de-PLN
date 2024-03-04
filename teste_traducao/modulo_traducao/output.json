@@ -1,0 +1,17 @@
+{
+	"select": {
+		"column": "absented",
+		"type": "['SUM']"
+	},
+	"from": {
+		"table": "SchoolRecords"
+	},
+	"join": {
+	},
+	"where": {
+	},
+	"group_by": {
+	},
+	"select": {
+	},
+}
