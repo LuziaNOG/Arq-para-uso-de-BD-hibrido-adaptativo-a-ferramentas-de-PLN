@@ -24,6 +24,10 @@ conjuntos de dados podem ser manipulados. A interface desse módulo ainda não f
 Abaixo podemos observar o diagrama de classe do modelo proposto.
 <img src="/diagrama_classes.png">
 
+**O fluxo de execução é o seguinte:**
+O primeiro passo é realizar o login no sistemas através da **interface de login**. Inicialmente o sistema conta com dois usuários: um usuário administrador com username "admin" e senha "12345" e um usuário convencional com username "user1" e senha "12345". A **interface de login** envia ao **controlador de usuário** os dados de acesso recebidos para que o controlador valide o login. Após validar o login e verificar o tipo de usuario, o controlador chama a **interface admin** para usuários administradores, e a **interface usuários**, para usuários convencionais. 
+Através da **interface admin** o administrador pode cadastrar, listar, atualizar e deletar bancos de dados ou usuários. Os dados cadastrados dos bancos de dados e dos usuários são salvos em um banco de dados relacional SQLite. O administrador também pode realizar consultas. Ao optar por realizar uma consultas, a classe **consulta** é invocada, essa classe cria um objeto **mensagem** para guardar todas as informações, como a consulta em linguagem natural (informada pelo usuário), a tradução para uma consulta em SQL e/ou a tradução para uma consulta em mongoDB, além da resposta da consulta. A classe **consulta** também invoca a classe **tradução**, que realiza as traduções utilizando as ferramentas e retorna a consulta em SQL e mongoDB, que são salvos em **mensagem**. Com as consultas traduzidas, a classe **consulta** invoca a classe **conexão**, que estabelese a comunicação com o banco de dados que foi escolhido pelo usuário, envia a consulta na linguaguem correspondete a linguagem do banco de dados e retorna a resposta que é salva em **mensagem** e que será enviada para o usuário. 
+O usuário convencional tem acesso a **interface de usuário**,e pode realizar consulta, porém não pode cadastrar, listar, atualizar e deletar bancos de dados ou usuários.
 
 ## Observações
 
