@@ -22,7 +22,7 @@ conjuntos de dados podem ser manipulados. A interface desse módulo ainda não f
 ## Diagrama de classes
 
 Abaixo podemos observar o diagrama de classe do modelo proposto.
-<img src="/diagrama_classe.png">
+<img src="/diagrama_classes.png">
 
 
 ## Observações
