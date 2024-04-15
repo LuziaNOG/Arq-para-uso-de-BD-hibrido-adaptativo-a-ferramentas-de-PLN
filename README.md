@@ -19,6 +19,12 @@ conjuntos de dados podem ser manipulados. A interface desse módulo ainda não f
 
 **(iv) Módulo de administração** é responsável pelo gerenciamento de todos os usuários e seus respectivos perfis. (Módulo em implementação)
 
+## Diagrama de classes
+
+Abaixo podemos observar o diagrama de classe do modelo proposto.
+<img src="/diagrama_classe.png">
+
+
 ## Observações
 
 **Configuração para conexão com os bancos de dados**
@@ -36,4 +42,4 @@ conjuntos de dados podem ser manipulados. A interface desse módulo ainda não f
 - Por enquanto, não há suporte para outros bancos de dados não relacionais, além do mongoDB.
 
 **Execução**
-- Utilize o python3 para executar a main e direcione a saida para um arquivo .txt, exemplo: python3 modulos/main.py >> outfile.txt
+- Utilize o python3 para executar a main: python3 modulos/main.py
