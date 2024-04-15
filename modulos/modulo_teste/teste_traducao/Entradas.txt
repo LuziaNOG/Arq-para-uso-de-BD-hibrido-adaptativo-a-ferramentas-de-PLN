@@ -1,0 +1,13 @@
+What is the average present of SchoolRecords?;
+What is the average absented of SchoolRecords?;
+What is the average released of SchoolRecords?;
+What is the minimum present of SchoolRecords?;
+What is the minimum absented of SchoolRecords?;
+What is the minimum released of SchoolRecords?;
+What is the maximum present of SchoolRecords?;
+What is the maximum absented of SchoolRecords?;
+What is the maximum released of SchoolRecords?;
+What is sum absented from SchoolRecords?;
+What is sum released from SchoolRecords?;
+What is sum present from SchoolRecords?;
+Count how many distinct enrolled exist of SchoolRecords?;

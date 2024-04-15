@@ -1,1 +1,2 @@
 from modulo_comunicacao.conexao import Conexao
+from modulo_comunicacao.consulta import Consulta

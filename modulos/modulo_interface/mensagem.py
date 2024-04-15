@@ -1,9 +1,9 @@
 import sys
 
 class Mensagem:
-    csql = ""
-    cnosql = ""
-
+    csql=""
+    nosql=""
+    
     def __init__(self, consultaNL):
         self.consulta_nl = consultaNL
         self.resposta = ""
@@ -13,12 +13,6 @@ class Mensagem:
 
     def get_consulta_nl(self):
         return self.consulta_nl
-    
-    def get_resposta(self):
-        return self.resposta
-
-    def set_resposta(self, resposta):
-        self.resposta = resposta
 
     def set_csql(self, csql):
         self.csql = csql
@@ -31,9 +25,16 @@ class Mensagem:
 
     def get_cnosql(self):
         return self.cnosql
+
+    def set_resposta(self, resposta):
+        self.resposta = resposta
+            
+    def get_resposta(self):
+        return self.resposta
     
     def __str__(self):
         txt = 'Consulta em linguagem Natural: ' + self.get_consulta_nl()
         txt += '\nConsulta em SQL: ' + self.get_csql()
         txt += '\nConsulta em NoSQL: ' + str(self.get_cnosql())
         return txt
+    

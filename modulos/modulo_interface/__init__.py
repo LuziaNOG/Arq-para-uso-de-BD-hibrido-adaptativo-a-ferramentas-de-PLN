@@ -1,1 +1,5 @@
-from  modulo_interface.mensagem import Mensagem
+from modulo_interface.mensagem import Mensagem
+from modulo_interface.controladorUsuario import ControladorUsuario
+from modulo_interface.interface_usuario import InferfaceUsuario
+from modulo_interface.interface_login import InterfaceLogin
+from modulo_interface.interface_admin import InferfaceAdmin

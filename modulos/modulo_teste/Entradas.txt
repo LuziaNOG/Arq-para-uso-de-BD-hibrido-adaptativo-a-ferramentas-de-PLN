@@ -8,3 +8,6 @@ What is the maximum present of SchoolRecords?;
 What is the maximum absented of SchoolRecords?;
 What is the maximum released of SchoolRecords?;
 What is sum absented from SchoolRecords?;
+What is sum released from SchoolRecords?;
+What is sum present from SchoolRecords?;
+Count how many distinct enrolled exist of SchoolRecords?;

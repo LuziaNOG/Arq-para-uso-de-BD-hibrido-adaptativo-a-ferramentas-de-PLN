@@ -5,7 +5,7 @@ import re, json
 
 class Conexao:
     #tipo 1 SQL e 2 NoSQL
-    def realiza(self, tipo_bd, consulta):
+    def realiza_conexao(self, tipo_bd, consulta):
         if(tipo_bd==1):
             print("Acessando banco relacional, resposta:")
             resp=self.realizar_conexao_mysqlBD(consulta)
