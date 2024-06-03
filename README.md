@@ -1,4 +1,4 @@
-# Modelo de arquitetura para uso de banco de dados hibridos adaptavel a ferramentas PLN
+# Arquitetura para uso de banco de dados híbrido adaptativo a ferramentas de suporte a consultas em linguagem natural
 Esse projeto esta relacionado a uma dissertação de mestrado do PCOMP - UFC - Campus Quixadá.
 
 O objetivo é propor um modelo de arquitetura capaz de possibilitar a usuários não especialistas extrair a partir de linguagem natural informações de base de dados homogêneas
